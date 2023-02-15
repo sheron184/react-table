@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+	font-family: Quicksand;
+}
+.td{
+	width: 80px;
+	padding: 5px 3px;
+	border: 1px solid #ccc;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+table{
+	border:8px solid rgb(72, 32, 101);
+	border-radius: 8px;
+	border-spacing: 0px;
+}
+
+.salary{
+	border-left: 1px solid #454545;
+	border-right: 1px solid #454545;
+	background-color: #ebeaea;
+}
